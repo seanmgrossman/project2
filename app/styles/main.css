@@ -85,3 +85,16 @@ body {
     border-bottom: 0;
   }
 }
+
+
+.popup {
+  background-color:#fff;
+  border:1px solid #999;
+  text-align:center;
+  top:-100px;
+  width:300px;
+  left: 50%;
+  margin-left: -150px;
+  position: absolute;
+  z-index: 999!important;
+}
