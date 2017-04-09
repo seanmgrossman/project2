@@ -1,9 +1,4 @@
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
+
 
 /* Space out content a bit */
 body {
@@ -97,4 +92,78 @@ body {
   margin-left: -150px;
   position: absolute;
   z-index: 999!important;
+}
+
+.big-header {
+height: 800px;
+background: url('https://c1.staticflickr.com/6/5133/5539592271_1244190583_b.jpg') center center no-repeat scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+color: white;
+}
+
+#low-header {
+margin-top: 500px;
+display: block;
+position: relative;
+}
+
+#fireworks {
+position: absolute;
+top: 0;
+left: 0;
+}
+
+@media (min-width: 34em) {
+.card-columns {
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+}
+}
+
+@media (min-width: 48em) {
+.card-columns {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+}
+}
+
+@media (min-width: 62em) {
+.card-columns {
+-webkit-column-count: 4;
+-moz-column-count: 4;
+column-count: 4;
+}
+}
+
+.slider {
+
+    width: 80%;
+    margin: 40px 0 0 10%;
+
+}
+
+
+.animated-modal {
+    animation-duration: 0.5s;
+    background-color: rgb(57, 190, 185);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    z-index: -10;
+}
+
+.animated-modal-on {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
 }

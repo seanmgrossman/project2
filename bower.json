@@ -6,7 +6,11 @@
     "modernizr": "~2.8.1",
     "pixi.js": "^4.4.2",
     "animate.css": "^3.5.2",
-    "slick-carousel": "^1.6.0"
+    "slick-carousel": "^1.6.0",
+    "pixi-particles": "^2.1.5",
+    "hover": "^2.1.1",
+    "jsanimatedmodal": "^0.3.1",
+    "fullpage.js": "^2.9.4"
   },
   "overrides": {
     "bootstrap": {
