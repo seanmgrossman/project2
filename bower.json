@@ -2,7 +2,6 @@
   "name": "project2",
   "private": true,
   "dependencies": {
-    "bootstrap": "~4.0.0-alpha.6",
     "modernizr": "~2.8.1",
     "pixi.js": "^4.4.2",
     "animate.css": "^3.5.2",
@@ -10,16 +9,9 @@
     "pixi-particles": "^2.1.5",
     "hover": "^2.1.1",
     "jsanimatedmodal": "^0.3.1",
-    "fullpage.js": "^2.9.4"
-  },
-  "overrides": {
-    "bootstrap": {
-      "main": [
-        "scss/bootstrap.scss",
-        "dist/js/bootstrap.js",
-        "dist/css/bootstrap.css"
-      ]
-    }
+    "fullpage.js": "^2.9.4",
+    "materialize": "^0.98.2",
+    "normalize-css": "^6.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",

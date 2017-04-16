@@ -1,0 +1,75 @@
+
+
+
+#fireworks {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+.slider {
+
+    width: 80%;
+    margin: 40px 0 0 10%;
+
+}
+
+
+.animated-modal {
+    animation-duration: 0.5s;
+    background-color: rgb(57, 190, 185);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    z-index: -10;
+}
+
+.animated-modal-on {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+  #section0,
+  #section1,
+  #section2,
+  #section3{
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+
+#btn-close-modal {
+  width:100%;
+  text-align: center;
+  cursor:pointer;
+  color:#fff;
+}
+
+#demo01{
+  color:#fff;
+  text-align: center;
+
+}
+
+
+
+#btn-close-modal2 {
+  width:100%;
+  text-align: center;
+  cursor:pointer;
+  color:#fff;
+}
+
+#demo02{
+  color:#fff;
+  text-align: center;
+
+}

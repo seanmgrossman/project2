@@ -1,103 +1,146 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>project2</title>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <!-- Place favicon.ico in the root directory -->
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>project2</title>
 
-    <!-- build:css styles/vendor.css -->
-    <!-- bower:css -->
-    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="/bower_components/animate.css/animate.css" />
-    <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick.css" />
-    <link rel="stylesheet" href="/bower_components/hover/css/hover.css" />
-    <link rel="stylesheet" href="/bower_components/fullpage.js/dist/jquery.fullpage.css" />
-    <!-- endbower -->
-    <!-- endbuild -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/vendor/modernizr.js -->
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-  </head>
-  <body>
-    <!--[if IE]>
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/animate.css/animate.css" />
+  <link rel="stylesheet" href="/bower_components/slick-carousel/slick/slick.css" />
+  <link rel="stylesheet" href="/bower_components/hover/css/hover.css" />
+  <link rel="stylesheet" href="/bower_components/fullpage.js/dist/jquery.fullpage.css" />
+  <link rel="stylesheet" href="/bower_components/materialize/bin/materialize.css" />
+  <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/style.css -->
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- endbuild -->
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
-    <div class="container">
-      <div id="fullpage">
 
+  <div id="fullpage">
 
-  <div id="first" class="section">
-  <div class="slider">
-    <div><img src="images/goose.jpg"></div>
-    <div><img src="images/goose.jpg"></div>
-    <div><img src="images/goose.jpg"></div>
-    <div><img src="images/goose.jpg"></div>
-    <div><img src="images/goose.jpg"></div>
-    <div><img src="images/goose.jpg"></div>
-</div>
-</div>
-  <div id="second" class="section">
-    <div id="your-modal" class="animated animated-modal">
-    <div class="close-modal">Close</div>
-    <!-- your content -->
-</div>
-    </div>
+    <div id="section0" class="section">
+      <h1 class="hvr-bounce-to-right"> <a id="demo01" href="#animatedModal">Click for popup</a></h1>
 
-</div>
+              <!--DEMO01-->
+        <div id="animatedModal">
+            <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+            <div  id="btn-close-modal" class="close-animatedModal"> 
+                CLOSE slide
+            </div>
+                
+            <div class="modal-content">
+                Bird infomation will go here
+            </div>
+        </div>
         
+            </div>
 
-      
+
+    <div id="section1" class="section">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/1">
+            <!-- random image -->
+            <div class="caption center-align">
+              <h3>Bird</h3>
+              <h5 class="light grey-text text-lighten-3">Bird detail</h5>
+            </div>
+          </li>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/2">
+            <!-- random image -->
+            <div class="caption left-align">
+              <h3>Bird </h3>
+              <h5 class="light grey-text text-lighten-3">Bird detail</h5>
+            </div>
+          </li>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/3">
+            <!-- random image -->
+            <div class="caption right-align">
+              <h3>Bird detail</h3>
+              <h5 class="light grey-text text-lighten-3">Bird detail</h5>
+            </div>
+          </li>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/4">
+            <!-- random image -->
+            <div class="caption center-align">
+              <h3>Bird detail</h3>
+              <h5 class="light grey-text text-lighten-3">bird detail</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+
     </div>
-    
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
 
-    <!-- build:js scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="/bower_components/jquery/dist/jquery.js"></script>
-    <script src="/bower_components/tether/dist/js/tether.js"></script>
-    <script src="/bower_components/modernizr/modernizr.js"></script>
-    <script src="/bower_components/pixi.js/dist/pixi.min.js"></script>
-    <script src="/bower_components/slick-carousel/slick/slick.js"></script>
-    <script src="/bower_components/pixi-particles/dist/pixi-particles.min.js"></script>
-    <script src="/bower_components/jsanimatedmodal/animatedModal.js"></script>
-    <script src="/bower_components/fullpage.js/dist/jquery.fullpage.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/plugins.js -->
-    <script src="/bower_components/bootstrap/js/dist/util.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/alert.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/button.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/carousel.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/collapse.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/dropdown.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/modal.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/scrollspy.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/tab.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/tooltip.js"></script>
-    <script src="/bower_components/bootstrap/js/dist/popover.js"></script>
-    <!-- endbuild -->
-    
-    <!-- build:js scripts/p2.js -->
-    <script src="scripts/p2.js"></script>
-    <!-- endbuild -->
-  </body>
+    <div id="section2" class="section">
+
+
+  </div>
+
+
+
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function(b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function() {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <script src="/bower_components/pixi.js/dist/pixi.min.js"></script>
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/slick-carousel/slick/slick.js"></script>
+  <script src="/bower_components/pixi-particles/dist/pixi-particles.min.js"></script>
+  <script src="/bower_components/jsanimatedmodal/animatedModal.js"></script>
+  <script src="/bower_components/fullpage.js/dist/jquery.fullpage.js"></script>
+  <script src="/bower_components/materialize/bin/materialize.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/plugins.js -->
+
+  <!-- endbuild -->
+
+  <!-- build:js scripts/p2.js -->
+  <script src="scripts/p2.js"></script>
+  <!-- endbuild -->
+</body>
+
 </html>
