@@ -11,7 +11,9 @@
     "jsanimatedmodal": "^0.3.1",
     "fullpage.js": "^2.9.4",
     "materialize": "^0.98.2",
-    "normalize-css": "^6.0.0"
+    "normalize-css": "^6.0.0",
+    "pagePiling.js": "pagepiling.js#^1.5.4",
+    "components-font-awesome": "^4.7.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
