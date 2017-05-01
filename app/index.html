@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>project2</title>
+  <title>Central Florida Birds</title>
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <!-- Place favicon.ico in the root directory -->
@@ -44,7 +44,7 @@
   <div class="menu">
 
   <img  id="start" src="images/fakebird.png" />
-  <h3 id="intext" class="center">Learn about central Florida birds!</h3>
+  <h3 id="intext" class="center">Learn about the birds of Central Florida!</h3>
   </div>
   
 
@@ -100,19 +100,19 @@
     <div class="row">
     <div class="col s4"></div>
     <div class="col s8">
-    <h4>Central Florida Birds</h4>
+    <h1 id="bselect">Central Florida Birds</h1>
     </div>
     </div>
     <div class="row infom">
       <div class="col s3"></div>
       <div class="col s3">
-      <h5 class="hvr-radial-in"> <a id="demo01" href="#animatedModal">Anhinga</a></h5>
+      <h5 class="lpadder" > <a class="hvr-radial-in" id="demo01" href="#animatedModal">Anhinga</a></h5>
 
               <!--DEMO01-->
         <div id="animatedModal">
             <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
             <div  id="btn-close-modal" class="close-animatedModal"> 
-            <i class="fa fa-times fa-3x hvr-icon-grow-rotate" aria-hidden="true"></i>
+            <i class="fa fa-times fa-2x hvr-icon-grow-rotate" aria-hidden="true"></i>
 
             </div>
                 
@@ -122,21 +122,29 @@
 
                   <div class="row">
                 <div class="col s12 center-align exit">
+                           <audio id="myAudio">
+                  <source src="anhinga.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+
+                  <i class="fa fa-volume-up fa-2x sound hvr-bounce-in" aria-hidden="true" onclick="playAudio()"></i> 
                     <h5>
                   Anhinga
                   </h5>
                   <h5>
                   <span class="sname"> Anhinga anhinga </span>
                   </h5>
+
                   </div>
                </div>
 
                   <div class="col s3"> </div>
                   <div class="col s9 m9 l3">
-                  <img src="images/anhinga.jpg" width="250" height="250">
+                  <img  class="bpic responsive-img"  src="images/anhinga.jpg" width="500" height="250">
                   </div>
-                  <div class="col s6 offset-s3 offset-m3 m6 l3  bdes hvr-bubble-left">
-                  <p>A bird you normally see sunning near bodies of water, the Anhinga is known as the Water-Turkey for its swimming habits and broad tail, and also as the Snake-Bird for its habit of swimming with just its long head and neck sticking out of the water.</p>          
+                  <div class="col l3  bdes hvr-bubble-left hvr-forward hvr-forward">  
+                  <p>A bird you would normally see sunning near bodies of water, the Anhinga is known as the Water-Turkey for its swimming habits and broad tail, and also as the Snake-Bird for its habit of swimming with just its long head and neck sticking out of the water.
+                  </p> 
                   </div>  
                   <div class="col s3 m3 l0"></div>
                   <div class="col s12 m12 l3"></div>
@@ -145,27 +153,414 @@
             </div>
         </div>
 
-        <br/>
 
-        <h5 class="hvr-radial-in"> <a id="demo02" href="#animatedModal2">Black Vulture </a></h5>
-        <h5 class="hvr-radial-in"> <a id="demo02" href="#animatedModal2">Great Egret</a></h5>
-        <h5 class="hvr-radial-in"> <a id="demo02" href="#animatedModal2">Little Blue Heron </a></h5>
-        <h5 class="hvr-radial-in"> <a id="demo02" href="#animatedModal2">Mottled Duck</a></h5>
-        
+        <h5 class="lpadder"> <a  class="hvr-radial-in" id="demo02" href="#modal-02">Black Vulture </a></h5>
+        <div id="modal-02">
+            <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
+            <div  id="btn-close-modal" class="close-modal-02"> 
+            <i class="fa fa-times fa-2x hvr-icon-grow-rotate" aria-hidden="true"></i>
+            </div>
+            
+            <div class="modal-content">
+             <div class="row infop">
+
+
+                  <div class="row">
+                <div class="col s12 center-align exit">
+                           <audio id="myAudio2">
+                  <source src="vulture.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+
+                  <i class="fa fa-volume-up fa-2x sound hvr-bounce-in" aria-hidden="true" onclick="playAudio2()"></i> 
+                    <h5>
+                  Black Vulture
+                  </h5>
+                  <h5>
+                  <span class="sname"> Coragyps atratus </span>
+                  </h5>
+
+                  </div>
+               </div>
+
+                  <div class="col s3"> </div>
+                  <div class="col s9 m9 l3">
+                  <img  class="bpic responsive-img"  src="images/vulture.jpg" width="500" height="250">
+                  </div>
+                  <div class="col l3  bdes hvr-bubble-left hvr-forward">  
+                  <p>Black Vultures are compact birds with broad wings, short tails, and powerful wingbeats. Normally seen next to a carcass, or flying up above looking for a new meal. They share food with relatives, feeding young for months after they’ve fledged.
+                  </p> 
+                  </div>  
+                  <div class="col s3 m3 l0"></div>
+                  <div class="col s12 m12 l3"></div>
+                </div>
+
+            </div>
         </div>
 
-              <div class="col s6">
+        <!--3-->
+        <h5 class="lpadder" > <a class="hvr-radial-in" id="demo03" href="#modal-03">Great Egret</a></h5>
+                <div id="modal-03">
+            <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
+            <div  id="btn-close-modal" class="close-modal-03"> 
+            <i class="fa fa-times fa-2x hvr-icon-grow-rotate" aria-hidden="true"></i>
+            </div>
+            
+            <div class="modal-content">
+             <div class="row infop">
 
 
-      <h5 class="hvr-radial-in"> <a id="demo02" href="#animatedModal2">Northern Mockingbird</a></h5>
-       <br/>
-      <h5 class="hvr-radial-in"> <a id="demo02" href="#animatedModal2">Red-shouldered Hawk</a></h5>
-       <br/>
-      <h5 class="hvr-radial-in"> <a id="demo02" href="#animatedModal2">Sandhill Crane</a></h5>
-       <br/>
-      <h5 class="hvr-radial-in"> <a id="demo02" href="#animatedModal2">White Ibis</a></h5>
-       <br/>
-      <h5 class="hvr-radial-in"> <a id="demo02" href="#animatedModal2">Wood Stork</a></h5>
+                  <div class="row">
+                <div class="col s12 center-align exit">
+                           <audio id="myAudio3">
+                  <source src="egret.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+
+                  <i class="fa fa-volume-up fa-2x sound hvr-bounce-in" aria-hidden="true" onclick="playAudio3()"></i> 
+                    <h5>
+                  Great Egret
+                  </h5>
+                  <h5>
+                  <span class="sname">Ardea alba</span>
+                  </h5>
+
+                  </div>
+               </div>
+
+                  <div class="col s3"> </div>
+                  <div class="col s9 m9 l3">
+                  <img  class="bpic responsive-img"  src="images/egret.jpg" width="500" height="250">
+                  </div>
+                  <div class="col l3  bdes hvr-bubble-left hvr-forward">  
+                  <p>Found near water, though it sometimes looks in bushes for food. They normally hunt standing immobile or wading through wetlands to capture the prey with a deadly jab of their yellow bill. 
+
+                  </p> 
+                  </div>  
+                  <div class="col s3 m3 l0"></div>
+                  <div class="col s12 m12 l3"></div>
+                </div>
+
+            </div>
+        </div>
+        <!--4-->
+
+        <h5 class="lpadder" > <a class="hvr-radial-in" id="demo04" href="#modal-04">Little Blue Heron </a></h5>
+                <div id="modal-04">
+            <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
+            <div  id="btn-close-modal" class="close-modal-04"> 
+            <i class="fa fa-times fa-2x hvr-icon-grow-rotate" aria-hidden="true"></i>
+            </div>
+            
+            <div class="modal-content">
+             <div class="row infop">
+
+
+                  <div class="row">
+                <div class="col s12 center-align exit">
+                           <audio id="myAudio4">
+                  <source src="heron.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+
+                  <i class="fa fa-volume-up fa-2x sound hvr-bounce-in" aria-hidden="true" onclick="playAudio4()"></i> 
+                    <h5>
+                  Little Blue Heron
+                  </h5>
+                  <h5>
+                  <span class="sname">Egretta caerulea</span>
+                  </h5>
+
+                  </div>
+               </div>
+
+                  <div class="col s3"> </div>
+                  <div class="col s9 m9 l3">
+                  <img  class="bpic responsive-img"  src="images/heroni.jpg" width="500" height="250">
+                  </div>
+                  <div class="col l3  bdes hvr-bubble-left hvr-forward">  
+                  <p>Little Blue Herons stalk shallow waters for small fish and amphibians, adopting a quiet, methodical approach.They nest in trees, usually among other nesting herons and wading birds. In those trees , they build stick nests in trees alongside other colonial waterbirds.
+
+                  </p> 
+                  </div>  
+                  <div class="col s3 m3 l0"></div>
+                  <div class="col s12 m12 l3"></div>
+                </div>
+
+            </div>
+        </div>
+        <!--5-->        
+        <h5 class="lpadder" > <a class="hvr-radial-in" id="demo05" href="#modal-05">Mottled Duck</a></h5>
+                <div id="modal-05">
+            <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
+            <div  id="btn-close-modal" class="close-modal-05"> 
+            <i class="fa fa-times fa-2x hvr-icon-grow-rotate" aria-hidden="true"></i>
+            </div>
+            
+            <div class="modal-content">
+             <div class="row infop">
+
+
+                  <div class="row">
+                <div class="col s12 center-align exit">
+                           <audio id="myAudio5">
+                  <source src="duck.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+
+                  <i class="fa fa-volume-up fa-2x sound hvr-bounce-in" aria-hidden="true" onclick="playAudio5()"></i> 
+                    <h5>
+                  Mottled Duck
+                  </h5>
+                  <h5>
+                  <span class="sname">Anas fulvigula</span>
+                  </h5>
+
+                  </div>
+               </div>
+
+                  <div class="col s3"> </div>
+                  <div class="col s9 m9 l3">
+                  <img  class="bpic responsive-img"  src="images/duck.jpg" width="500" height="250">
+                  </div>
+                  <div class="col l3  bdes hvr-bubble-left hvr-forward">  
+                  <p>The only duck adapted to breeding in southern marshes, the Mottled Duck is a dull relative of the Mallard. They are the native common duck found in Florida, unlike the invasive duck Muscovy Duck.  
+                  </p> 
+                  </div>  
+                  <div class="col s3 m3 l0"></div>
+                  <div class="col s12 m12 l3"></div>
+                </div>
+
+            </div>
+        </div>        
+        </div>
+
+      <div class="col s6">
+
+      <!--6-->
+      <h5> <a class="hvr-radial-in" id="demo06" href="#modal-06">Northern Mockingbird</a></h5>
+                <div id="modal-06">
+            <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
+            <div  id="btn-close-modal" class="close-modal-06"> 
+            <i class="fa fa-times fa-2x hvr-icon-grow-rotate" aria-hidden="true"></i>
+            </div>
+            
+            <div class="modal-content">
+             <div class="row infop">
+
+
+                  <div class="row">
+                <div class="col s12 center-align exit">
+                           <audio id="myAudio6">
+                  <source src="mockingbird.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+
+                  <i class="fa fa-volume-up fa-2x sound hvr-bounce-in" aria-hidden="true" onclick="playAudio6()"></i> 
+                    <h5>
+                  Northern Mockingbird
+                  </h5>
+                  <h5>
+                  <span class="sname">Mimus polyglottos</span>
+                  </h5>
+
+                  </div>
+               </div>
+
+                  <div class="col s3"> </div>
+                  <div class="col s9 m9 l3">
+                  <img  class="bpic responsive-img"  src="images/mockingbird.jpg" width="500" height="250">
+                  </div>
+                  <div class="col l3  bdes hvr-bubble-left hvr-forward">  
+                  <p>Northern Mockingbirds sing almost endlessly, even sometimes at night. They commonly mimic other birds, hence the name. They are the state bird of Florida. If birds intrude on their territories they will harass them till they leave. 
+                  </p> 
+                  </div>  
+                  <div class="col s3 m3 l0"></div>
+                  <div class="col s12 m12 l3"></div>
+                </div>
+
+            </div>
+        </div>      
+      <!--7-->      
+      <h5> <a class="hvr-radial-in" id="demo07" href="#modal-07">Red-shouldered Hawk</a></h5>
+                <div id="modal-07">
+            <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
+            <div  id="btn-close-modal" class="close-modal-07"> 
+            <i class="fa fa-times fa-2x hvr-icon-grow-rotate" aria-hidden="true"></i>
+            </div>
+            
+            <div class="modal-content">
+             <div class="row infop">
+
+
+                  <div class="row">
+                <div class="col s12 center-align exit">
+                           <audio id="myAudio7">
+                  <source src="hawk.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+
+                  <i class="fa fa-volume-up fa-2x sound hvr-bounce-in" aria-hidden="true" onclick="playAudio7()"></i> 
+                    <h5>
+                  Red-shouldered Hawk
+                  </h5>
+                  <h5>
+                  <span class="sname">Buteo lineatus</span>
+                  </h5>
+
+                  </div>
+               </div>
+
+                  <div class="col s3"> </div>
+                  <div class="col s9 m9 l3">
+                  <img  class="bpic responsive-img"  src="images/hawki.jpg" width="500" height="250">
+                  </div>
+                  <div class="col l3  bdes hvr-bubble-left hvr-forward">  
+                  <p>Red-shouldered Hawk is marked with barred reddish-peachy underbelly and a strongly banded tail. In flight, they search for food letting out loud calls that can be heard from the ground. These hawks hunt prey ranging from mice to frogs and snakes.
+
+                  </p> 
+                  </div>  
+                  <div class="col s3 m3 l0"></div>
+                  <div class="col s12 m12 l3"></div>
+                </div>
+
+            </div>
+        </div>      
+      <!--8-->
+
+      <h5> <a class="hvr-radial-in" id="demo08" href="#modal-08">Sandhill Crane</a></h5>
+                <div id="modal-08">
+            <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
+            <div  id="btn-close-modal" class="close-modal-08"> 
+            <i class="fa fa-times fa-2x hvr-icon-grow-rotate" aria-hidden="true"></i>
+            </div>
+            
+            <div class="modal-content">
+             <div class="row infop">
+
+
+                  <div class="row">
+                <div class="col s12 center-align exit">
+                           <audio id="myAudio8">
+                  <source src="crane.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+
+                  <i class="fa fa-volume-up fa-2x sound hvr-bounce-in" aria-hidden="true" onclick="playAudio8()"></i> 
+                    <h5>
+                  Sandhill Crane
+                  </h5>
+                  <h5>
+                  <span class="sname">Ardea alba</span>
+                  </h5>
+
+                  </div>
+               </div>
+
+                  <div class="col s3"> </div>
+                  <div class="col s9 m9 l3">
+                  <img  class="bpic responsive-img"  src="images/sandhilli.jpg" width="500" height="250">
+                  </div>
+                  <div class="col l3  bdes hvr-bubble-left hvr-forward">  
+                  <p>Sandhill Cranes group together with others, filling the air with distinctive rolling cries that echo wherever they go. You typically see them paired together with at least one other crane. Mates display to each other with exuberant dances. 
+
+                  </p> 
+                  </div>  
+                  <div class="col s3 m3 l0"></div>
+                  <div class="col s12 m12 l3"></div>
+                </div>
+
+            </div>
+        </div>
+      <!--9-->      
+      <h5> <a class="hvr-radial-in" id="demo09" href="#modal-09">White Ibis</a></h5>
+                <div id="modal-09">
+            <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
+            <div  id="btn-close-modal" class="close-modal-09"> 
+            <i class="fa fa-times fa-2x hvr-icon-grow-rotate" aria-hidden="true"></i>
+            </div>
+            
+            <div class="modal-content">
+             <div class="row infop">
+
+
+                  <div class="row">
+                <div class="col s12 center-align exit">
+                           <audio id="myAudio9">
+                  <source src="ibis.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+
+                  <i class="fa fa-volume-up fa-2x sound hvr-bounce-in" aria-hidden="true" onclick="playAudio9()"></i> 
+                    <h5>
+                  White Ibis
+                  </h5>
+                  <h5>
+                  <span class="sname">Eudocimus albus</span>
+                  </h5>
+
+                  </div>
+               </div>
+
+                  <div class="col s3"> </div>
+                  <div class="col s9 m9 l3">
+                  <img  class="bpic responsive-img"  src="images/ibisi.jpg" width="500" height="250">
+                  </div>
+                  <div class="col l3  bdes hvr-bubble-left hvr-forward">  
+                  <p>Often found on grass and or near bodies of water, the White Ibis peaks down with a long beak for food. Primarily it eats a diet of large insects, and other small invertebrates. When they breed, they group up in large colonies with other birds. 
+
+                  </p> 
+                  </div>  
+                  <div class="col s3 m3 l0"></div>
+                  <div class="col s12 m12 l3"></div>
+                </div>
+
+            </div>
+        </div>
+      <!--10-->
+      <h5> <a class="hvr-radial-in" id="demo10" href="#modal-10">Wood Stork</a></h5>
+                <div id="modal-10">
+            <!--"THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID-->
+            <div  id="btn-close-modal" class="close-modal-10"> 
+            <i class="fa fa-times fa-2x hvr-icon-grow-rotate" aria-hidden="true"></i>
+            </div>
+            
+            <div class="modal-content">
+             <div class="row infop">
+
+
+                  <div class="row">
+                <div class="col s12 center-align exit">
+                           <audio id="myAudio10">
+                  <source src="stork.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+
+                  <i class="fa fa-volume-up fa-2x sound hvr-bounce-in" aria-hidden="true" onclick="playAudio10()"></i> 
+                    <h5>
+                 Wood Stork
+                  </h5>
+                  <h5>
+                  <span class="sname">Mycteria americana</span>
+                  </h5>
+
+                  </div>
+               </div>
+
+                  <div class="col s3"> </div>
+                  <div class="col s9 m9 l3">
+                  <img  class="bpic responsive-img"  src="images/stork.jpg" width="500" height="250">
+                  </div>
+                  <div class="col l3  bdes hvr-bubble-left hvr-forward">  
+                  <p>The Wood Stork is seen near bodies of water when not flying. It iis the only stork that breeds in the United States. It breeds in late winter to be timed with the Florida dry season. It eats fish that become concentrated in shrinking pools due to these dry spells. 
+                  </p> 
+                  </div>  
+                  <div class="col s3 m3 l0"></div>
+                  <div class="col s12 m12 l3"></div>
+                </div>
+
+            </div>
+        </div>
 </div>
 
 </div>

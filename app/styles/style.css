@@ -1,18 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+body{
 
 
-
-#fireworks {
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 
+#intext{
+  font-family: 'Josefin Slab', serif;
+
+}
+
 
 .slider {
-
-    width: 80%;
-    margin: 40px 0 0 10%;
+     width: 50%;
+        margin: 100px auto;
 
 }
 
@@ -105,6 +107,17 @@ i {
   color: white;
 }
 
+
+.sound {
+  position:relative;
+  top: 0px;
+  left: 0px;
+  color: black;
+  cursor:pointer;
+  padding-top: 5px;
+
+}
+
 #feather {
   position: absolute;
   top: 0;
@@ -140,10 +153,26 @@ i {
 #start{
   margin: auto;
   display: block;
-  padding-top:10%;
+  padding-top:15%;
 }
 
-h5{
+#bselect{
+  font-size:50px;
+  font-weight: bold;
+
+
+}
+
+img{
+  border-radius: 25px;
+
+}
+
+h5.lpadder{
+  margin-left: 10%;
+}
+
+h5 a{
   padding: 10px 20px; 
   border-radius: 25px;
 }
@@ -151,18 +180,21 @@ h5{
 h4{
 }
 .hvr-radial-in {
+    color:#ffffff;
+
   background: #2ecc71;
  
 }
 
 .hvr-radial-in:before {
-  
+    color:#ffffff;
+
   background: #27ae60;
 }
 
 .infom{
   background-color: #ffffff;
-      font-size: 1.3em;
+  font-size: 1.3em;
 
 }
 
@@ -173,9 +205,16 @@ h4{
 .bdes{
   background-color: #ffffff;
        border-radius: 25px;
+float:right;
+}
+
+.bpic{
+float:left;
 }
 
 .sname{
+    font-family: 'Josefin Slab', serif;
+
    font-style: italic;
 }
 .infop{
@@ -189,13 +228,15 @@ h4{
 }
 
 .slidern{
- text-shadow: 2px 2px 5px #f39c12;
+text-shadow: 1px 1px  #000;
 
 }
 
 .snames{
- text-shadow: 1px 1px black;
+ text-shadow: 1px 1px  #000;
 font-style: italic;
+font-family: 'Josefin Slab', serif;
+
 
 
 }
@@ -203,3 +244,5 @@ font-style: italic;
 .hvr-bubble-left:before {
   border-color: transparent #ffffff transparent transparent;
 }
+
+
